@@ -1,0 +1,584 @@
+{
+  "@@locale": "en",
+  "appLoadFailedTitle": "Couldn't load your data",
+  "appLoadingWorkspace": "Loading your workspace…",
+  "appRetry": "Try again",
+  "appSyncing": "Syncing your data…",
+  "authBackToSignin": "Back to sign in",
+  "authBuildPlan": "New here? Build your free plan first",
+  "authContinueGoogle": "Continue with Google",
+  "authCreateAccount": "Create Account",
+  "authEmail": "Email",
+  "authEmailPlaceholder": "you@example.com",
+  "authErrGeneric": "Something went wrong. Please try again.",
+  "authForgot": "Forgot password?",
+  "authHaveAccount": "Already have an account?",
+  "authHidePassword": "Hide password",
+  "authInfoConfirm": "Account created! Check your email to confirm, then sign in.",
+  "authInfoReset": "If an account exists for that email, a password reset link is on its way. Check your inbox.",
+  "authNoAccount": "Don't have an account?",
+  "authOr": "or",
+  "authPassword": "Password",
+  "authPasswordPlaceholder": "Your password",
+  "authPasswordPlaceholderSignup": "At least 6 characters",
+  "authPleaseWait": "Please wait...",
+  "authPrivacyNote": "Your data is private and secured per-account with row-level security.",
+  "authPromoSaved": "Your plan is ready — create an account to save it.",
+  "authSendReset": "Send reset link",
+  "authShowPassword": "Show password",
+  "authSignIn": "Sign In",
+  "authSignInLink": "Sign in",
+  "authSignUp": "Sign up",
+  "authSubtitleReset": "Enter your email to reset your password.",
+  "authSubtitleSignin": "Welcome back. Sign in to continue.",
+  "authSubtitleSignup": "Create your account to get started.",
+  "chartsAchievements": "Achievements",
+  "chartsAchievementsExplainer": "Log a meal, workout, or water on any day to keep your streak alive — miss a whole day and it resets. Stay consistent to unlock these:",
+  "chartsActiveBurn": "Active Burn",
+  "chartsBadgesCenturyDesc": "Log 100 items total",
+  "chartsBadgesCenturyLabel": "Centurion",
+  "chartsBadgesHydratedDesc": "Log water on 7 days",
+  "chartsBadgesHydratedLabel": "Hydrated",
+  "chartsBadgesStartDesc": "Log your first item",
+  "chartsBadgesStartLabel": "Getting Started",
+  "chartsBadgesStreak14Desc": "Reach a 14-day streak",
+  "chartsBadgesStreak14Label": "Dedicated",
+  "chartsBadgesStreak30Desc": "Reach a 30-day streak",
+  "chartsBadgesStreak30Label": "Unstoppable",
+  "chartsBadgesStreak3Desc": "Reach a 3-day streak",
+  "chartsBadgesStreak3Label": "Consistent",
+  "chartsBadgesStreak7Desc": "Reach a 7-day streak",
+  "chartsBadgesStreak7Label": "On Fire",
+  "chartsCarbs": "Carbs",
+  "chartsDays": "{count, plural, one{{count} day} other{{count} days}}",
+  "@chartsDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chartsDefaultTemplate": "Default balanced template displayed. Please log food items in the database to see live ratios!",
+  "chartsEnergyDesc": "Breakdown of daily energy contributions (kcal percentage) derived from logged proteins, carbs, and fats.",
+  "chartsEnergyTitle": "Today's Energy Share",
+  "chartsFat": "Fat",
+  "chartsFoodIngested": "Food Ingested",
+  "chartsGoal": "Goal",
+  "chartsNetCalories": "Net Calories",
+  "chartsOfCalories": "{value}% of calories",
+  "@chartsOfCalories": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "chartsProtein": "Protein",
+  "chartsStartStreak": "Start a Streak",
+  "chartsStreakAlive": "Your streak is alive — log anything today to extend it. Longest: {longest}.",
+  "@chartsStreakAlive": {
+    "placeholders": {
+      "longest": {
+        "type": "String"
+      }
+    }
+  },
+  "chartsStreakStart": "Log a meal, workout, or water today to begin your streak!",
+  "chartsStreakTitle": "{n}-Day Streak",
+  "@chartsStreakTitle": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "chartsStreakToday": "Nice work today! Keep it going — longest streak: {longest}.",
+  "@chartsStreakToday": {
+    "placeholders": {
+      "longest": {
+        "type": "String"
+      }
+    }
+  },
+  "chartsTotalLogged": "Total Logged",
+  "chartsTrendDesc": "Compares total food consumed against negative burned workout calories versus daily budget.",
+  "chartsTrendTitle": "7-Day Balance Trend",
+  "coachAnalyzing": "Cooking Analysis...",
+  "coachCalories": "Calories",
+  "coachCarbs": "Carbs",
+  "coachChefTab": "AI Chef Recipes",
+  "coachCoachRating": "Coach Rating",
+  "coachCookingRecipes": "Cooking Recipes...",
+  "coachDailyCoachTab": "AI Daily Coach",
+  "coachDietitianSummary": "Dietitian Summary",
+  "coachErrCoach": "Failed to get response from AI coach.",
+  "coachErrGeneric": "Something went wrong. Please check your internet connection.",
+  "coachErrRecipes": "Failed to cook up AI recipes.",
+  "coachErrRecipesGeneric": "Failed to generate recipes. Try adding more simple ingredient terms.",
+  "coachFat": "Fat",
+  "coachFormulate": "Formulate 3 Recipes",
+  "coachGrade": "Grade",
+  "coachInstructions": "Prep & Cook Instructions:",
+  "coachLogged": "Logged",
+  "coachLogMeal": "Log Meal",
+  "coachMatchedOptions": "Matched Meal Options",
+  "coachMins": "{n} mins",
+  "@coachMins": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "coachPantryDesc": "Enter ingredients from your fridge/pantry to craft high-macro nutritious custom meals.",
+  "coachPantryPlaceholder": "e.g. Chicken breast, sweet potato, spinach, olive oil",
+  "coachPantryTitle": "Pantry Recipe Generator",
+  "coachProtein": "Protein",
+  "coachRecommendations": "Direct Recommendations",
+  "coachReviewDesc": "Analyze today's calories, proteins, exercises, and overall trend to optimize your fitness.",
+  "coachReviewTitle": "Daily Coach Review",
+  "coachRunReview": "Run AI Coach Review",
+  "commonAdd": "Add",
+  "commonAdded": "Added",
+  "commonCancel": "Cancel",
+  "commonClose": "Close",
+  "commonDelete": "Delete",
+  "commonDismiss": "Dismiss",
+  "commonLoading": "Loading…",
+  "commonOffline": "You're offline — reconnect to sync",
+  "commonRecent": "Recent",
+  "commonSave": "Save",
+  "dashboardAdjustGoal": "Adjust Goal",
+  "dashboardAdjustGoalTitle": "Adjust Custom Goals",
+  "dashboardBalanceTitle": "Calorie Balance & Goals",
+  "dashboardBurnedWorkouts": "Burned Workouts",
+  "dashboardCaloriesLabel": "Calories (kcal)",
+  "dashboardCarbohydrates": "Carbohydrates",
+  "dashboardCarbsLabel": "Carbs (g)",
+  "dashboardConsumedFood": "Consumed Food",
+  "dashboardCustomGoalSettings": "Custom Goal Settings",
+  "dashboardDailyBudget": "Daily Budget:",
+  "dashboardExceeded": "Exceeded",
+  "dashboardFatLabel": "Fat (g)",
+  "dashboardFats": "Fats",
+  "dashboardKcalLeft": "kcal Left",
+  "dashboardMacrosNote": "Macros contribute directly to muscle recovery and stable energy. Try logging balanced meals to match targets.",
+  "dashboardMacrosTitle": "Daily Macronutrients",
+  "dashboardNetCalories": "Net Calories:",
+  "dashboardOverTarget": "Over Target",
+  "dashboardPercentDone": "{percent}% Done",
+  "@dashboardPercentDone": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardProtein": "Protein",
+  "dashboardProteinLabel": "Protein (g)",
+  "dashboardQuickAddExercise": "Quick Log -150 kcal",
+  "dashboardQuickAddMeal": "Quick Log +200 kcal",
+  "dashboardSaveGoals": "Save Goals",
+  "dashboardStatusDone": "You have completed your daily net calorie goal! Excellent work staying balanced today.",
+  "dashboardStatusLeft": "You have {kcal} kcal left for your active target. Keep going!",
+  "@dashboardStatusLeft": {
+    "placeholders": {
+      "kcal": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardToday": "Today",
+  "dashboardYesterday": "Yesterday",
+  "errAiBusy": "The AI service is busy right now. Please try again in a moment.",
+  "errAiNotConfigured": "AI features aren't available in this build yet.",
+  "errDeleteAccount": "Couldn't delete your account. Please try again.",
+  "errDeleteEntry": "Couldn't delete that entry. Please try again.",
+  "errGeneric": "Something went wrong. Please try again.",
+  "errGoogleFailed": "Google sign-in failed. Please try again.",
+  "errGoogleNotConfigured": "Google sign-in isn't set up in this build yet.",
+  "errLoadData": "Couldn't load your data. Check your connection and try again.",
+  "errNetwork": "Network error. Please check your connection and try again.",
+  "errNotSignedIn": "You're not signed in.",
+  "errResetData": "Couldn't reset your data. Please try again.",
+  "errSaveEntry": "Couldn't save that entry. Please try again.",
+  "errSaveGoal": "Couldn't save your goal. Please try again.",
+  "errSaveProfile": "Couldn't save your profile. Please try again.",
+  "errSaveWater": "Couldn't save your water intake. Please try again.",
+  "exerciseActiveLogTitle": "Active Workout Log",
+  "exerciseActiveMinutes": "Active Minutes",
+  "exerciseActivities": "{n} Activities",
+  "@exerciseActivities": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "exerciseAdjustDuration": "Adjust Workout Duration",
+  "exerciseCaloriesBurned": "Calories Burned (kcal)",
+  "exerciseCatalogTitle": "Workout Catalog",
+  "exerciseCustomWorkout": "Custom Workout",
+  "exerciseDeleteEntry": "Delete Entry",
+  "exerciseDuration": "Duration (minutes)",
+  "exerciseDurationValue": "Duration: {n} minutes",
+  "@exerciseDurationValue": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "exerciseEstBurn": "Est. Burn: ~{kcal} kcal per 30 mins",
+  "@exerciseEstBurn": {
+    "placeholders": {
+      "kcal": {
+        "type": "String"
+      }
+    }
+  },
+  "exerciseExerciseDesc": "Exercise Description *",
+  "exerciseKcalToday": "kcal Today",
+  "exerciseLogCustomBtn": "Log Custom Workout",
+  "exerciseLogCustomTitle": "Log Custom Workout",
+  "exerciseLogExercise": "Log Exercise",
+  "exerciseMins": "{n} mins",
+  "@exerciseMins": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "exerciseMinutes": "{n} minutes",
+  "@exerciseMinutes": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "exerciseNegativeCalories": "Negative Calories",
+  "exerciseNoWorkouts": "No negative calorie workouts logged yet today.",
+  "exercisePhCaloriesBurned": "e.g. 240",
+  "exercisePhDuration": "e.g. 30",
+  "exercisePhExerciseName": "e.g. Crossfit / Rock Climbing / Tennis",
+  "exercisePresetWorkouts": "Preset Workouts",
+  "exerciseRecentEmpty": "Nothing logged yet — your workouts will appear here.",
+  "exerciseRecentTitle": "Recent workouts",
+  "exerciseSearchPlaceholder": "Search running, swimming, lifting...",
+  "foodAdjustPortion": "Adjust Portion Multiplier",
+  "foodAiAnalyzing": "Analyzing meal ingredients...",
+  "foodAiDesc": "Type or speak any custom meal and get instant estimated nutrition. E.g.,",
+  "foodAiError": "Gemini was unable to estimate nutrition for this text. Try a clearer description.",
+  "foodAiEstimateBtn": "AI Estimate Calories & Macros",
+  "foodAiExample": "2 scrambled eggs with cheddar cheese and bacon slice",
+  "foodAiExtracted": "AI Extracted Facts",
+  "foodAiPlaceholder": "What did you eat? Describe ingredients...",
+  "foodAiTitle": "Gemini AI Smart Assistant",
+  "foodCaloriesKcal": "Calories (kcal)",
+  "foodCarbs": "Carbs",
+  "foodCarbsG": "Carbohydrates (g)",
+  "foodDbLookup": "Database Lookup",
+  "foodDbSearchTitle": "Food Database Search",
+  "foodDeleteEntry": "Delete Entry",
+  "foodDiscard": "Discard",
+  "foodFat": "Fat",
+  "foodFatsG": "Fats (g)",
+  "foodFoodName": "Food Name *",
+  "foodHistoryTitle": "Logged Meal History",
+  "foodItemsLoaded": "{n} Items Loaded",
+  "@foodItemsLoaded": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "foodKcal": "Kcal",
+  "foodLogAiMeal": "Log AI Meal",
+  "foodLogCustomFood": "Log Custom Food",
+  "foodLogNamed": "Log {name}",
+  "@foodLogNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "foodManualAiLog": "Manual & AI Log",
+  "foodManualTitle": "Manual Custom Entry",
+  "foodNoLogs": "No food logs completed for {date}.",
+  "@foodNoLogs": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "foodNoMatch": "No matching foods found in standard database. Switch to AI log!",
+  "foodNoOnlineMatches": "No online matches",
+  "foodOnlineResults": "Online results",
+  "foodPhCalories": "e.g. 150",
+  "foodPhCarbs": "e.g. 15",
+  "foodPhFat": "e.g. 2",
+  "foodPhName": "e.g. Vanilla Yogurt Cup",
+  "foodPhProtein": "e.g. 8",
+  "foodPhServing": "e.g. 150",
+  "foodPortion": "Portion:",
+  "foodPortionSize": "Portion size:",
+  "foodProtein": "Protein",
+  "foodProteinG": "Protein (g)",
+  "foodRecentEmpty": "Nothing logged yet — your meals will appear here.",
+  "foodRecentTitle": "Recent meals",
+  "foodSearchPlaceholder": "Search oatmeal, eggs, avocado...",
+  "foodServing": "Serving:",
+  "foodServingSize": "Serving Size",
+  "foodTodayLower": "today",
+  "foodTotal": "Total:",
+  "foodUnit": "Unit",
+  "foodYesterdayLower": "yesterday",
+  "footerContact": "Contact",
+  "footerDeleteAccount": "Delete Account",
+  "footerEditProfile": "Edit Profile",
+  "footerPrivacy": "Privacy Policy",
+  "footerRate": "Rate on Play",
+  "footerResetData": "Reset Data",
+  "footerTagline": "NutriFlow · AI diet, hydration & exercise tracker · © 2026",
+  "footerVersion": "Version {version}",
+  "@footerVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "headerAiConnected": "AI Engines Connected",
+  "headerDarkLabel": "Deep Midnight",
+  "headerLightLabel": "High Contrast Light",
+  "headerLoggedDate": "Logged date:",
+  "headerSignOut": "Sign Out",
+  "headerSyncOn": "Sync On",
+  "headerTagline": "Professional Diet, Hydration, and Active Workout Workspace",
+  "headerThemeToDark": "Switch to Deep Midnight Theme",
+  "headerThemeToLight": "Switch to High Contrast Light Theme",
+  "langLabel": "Language",
+  "modalsDeleteBody": "This permanently deletes {who} and all your data — meals, exercises, goals, and hydration. This action cannot be undone.",
+  "@modalsDeleteBody": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "modalsDeleteBtn": "Delete",
+  "modalsDeleteConfirmPost": "to confirm",
+  "modalsDeleteConfirmPre": "Type",
+  "modalsDeleteTitle": "Delete account",
+  "modalsDeleteYourAccount": "your account",
+  "modalsDeleting": "Deleting…",
+  "modalsResetBody": "This permanently deletes all your logged meals, exercises, and hydration across every day. Your account, profile, and calorie/macro goal are kept. This can’t be undone.",
+  "modalsResetBtn": "Reset data",
+  "modalsResetDone": "Data reset",
+  "modalsResetDoneNote": "Your logs are cleared — fresh start!",
+  "modalsResetting": "Resetting…",
+  "modalsResetTitle": "Reset logged data",
+  "navActive": "Active",
+  "navCoach": "AI Coach",
+  "navDashboard": "Dashboard",
+  "navMeals": "Meals",
+  "navScan": "UPC Scan",
+  "navTrends": "Trends",
+  "onboardingActivitiesExtraHint": "Physical job / 2× a day",
+  "onboardingActivitiesExtraLabel": "Extra active",
+  "onboardingActivitiesLightHint": "1–3 days/week",
+  "onboardingActivitiesLightLabel": "Lightly active",
+  "onboardingActivitiesModerateHint": "3–5 days/week",
+  "onboardingActivitiesModerateLabel": "Moderately active",
+  "onboardingActivitiesSedentaryHint": "Little or no exercise",
+  "onboardingActivitiesSedentaryLabel": "Sedentary",
+  "onboardingActivitiesVeryHint": "6–7 days/week",
+  "onboardingActivitiesVeryLabel": "Very active",
+  "onboardingAgeLabel": "Age",
+  "onboardingAgePlaceholder": "e.g. 28",
+  "onboardingBack": "Back",
+  "onboardingCarbs": "Carbs",
+  "onboardingContinue": "Continue",
+  "onboardingCurrentWeightLabel": "Current weight",
+  "onboardingDailyCalories": "Daily calories",
+  "onboardingDietsHighProtein": "High protein",
+  "onboardingDietsKeto": "Keto",
+  "onboardingDietsLowCarb": "Low carb",
+  "onboardingDietsMediterranean": "Mediterranean",
+  "onboardingDietsNone": "Balanced",
+  "onboardingDietsPaleo": "Paleo",
+  "onboardingDietsVegan": "Vegan",
+  "onboardingDietsVegetarian": "Vegetarian",
+  "onboardingEditTitle": "Edit your profile",
+  "onboardingFat": "Fat",
+  "onboardingGoalsBuildMuscleHint": "Lean bulk, high protein",
+  "onboardingGoalsBuildMuscleLabel": "Build muscle",
+  "onboardingGoalsGainHint": "Calorie surplus",
+  "onboardingGoalsGainLabel": "Gain weight",
+  "onboardingGoalsLoseHint": "Calorie deficit",
+  "onboardingGoalsLoseLabel": "Lose weight",
+  "onboardingGoalsMaintainHint": "Stay where I am",
+  "onboardingGoalsMaintainLabel": "Maintain",
+  "onboardingHeightLabel": "Height",
+  "onboardingImperial": "Imperial (lb/ft)",
+  "onboardingMetric": "Metric (kg/cm)",
+  "onboardingOptional": "(optional)",
+  "onboardingPersonalizeTitle": "Let’s personalize NutriFlow",
+  "onboardingPromoSecondary": "I already have an account",
+  "onboardingPromoSubmit": "Create account to save",
+  "onboardingPromoTitle": "Build your free nutrition plan",
+  "onboardingProtein": "Protein",
+  "onboardingRestrictionsDairy": "Dairy",
+  "onboardingRestrictionsEggs": "Eggs",
+  "onboardingRestrictionsGluten": "Gluten",
+  "onboardingRestrictionsLabel": "Any restrictions / allergies?",
+  "onboardingRestrictionsNuts": "Nuts",
+  "onboardingRestrictionsPork": "Pork",
+  "onboardingRestrictionsShellfish": "Shellfish",
+  "onboardingRestrictionsSoy": "Soy",
+  "onboardingReviewNote": "Calculated from your details (Mifflin–St Jeor). You can fine-tune these anytime from the dashboard.",
+  "onboardingSaveChanges": "Save changes",
+  "onboardingSaving": "Saving…",
+  "onboardingSexesFemale": "Female",
+  "onboardingSexesMale": "Male",
+  "onboardingSexesOther": "Other",
+  "onboardingSexLabel": "Sex (for calorie estimate)",
+  "onboardingSignOut": "Sign out",
+  "onboardingStartTracking": "Start tracking",
+  "onboardingStep0Title": "What’s your main goal?",
+  "onboardingStep1Title": "A bit about you",
+  "onboardingStep2Title": "Your measurements",
+  "onboardingStep3Title": "How active are you?",
+  "onboardingStep4Title": "Dietary preference",
+  "onboardingStep5Title": "Preferences",
+  "onboardingStep6Title": "Your personalized daily targets",
+  "onboardingStepOf": "Step {current} of {total}",
+  "@onboardingStepOf": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingStepsAbout": "About you",
+  "onboardingStepsActivity": "Activity",
+  "onboardingStepsBody": "Body",
+  "onboardingStepsDiet": "Diet",
+  "onboardingStepsGoal": "Goal",
+  "onboardingStepsPrefs": "Preferences",
+  "onboardingStepsReview": "Review",
+  "onboardingTargetWeightLabel": "Target weight",
+  "onboardingWorkoutsCardio": "Cardio",
+  "onboardingWorkoutsCycling": "Cycling",
+  "onboardingWorkoutsHIIT": "HIIT",
+  "onboardingWorkoutsLabel": "Workouts you enjoy",
+  "onboardingWorkoutsRunning": "Running",
+  "onboardingWorkoutsStrength": "Strength",
+  "onboardingWorkoutsSwimming": "Swimming",
+  "onboardingWorkoutsWalking": "Walking",
+  "onboardingWorkoutsYoga": "Yoga",
+  "passwordConfirmLabel": "Confirm new password",
+  "passwordConfirmPlaceholder": "Re-enter password",
+  "passwordErrGeneric": "Could not update your password. Please try again.",
+  "passwordErrMinLength": "Password must be at least 6 characters.",
+  "passwordErrMismatch": "Passwords don't match.",
+  "passwordHidePassword": "Hide password",
+  "passwordNewPassword": "New password",
+  "passwordNewPlaceholder": "At least 6 characters",
+  "passwordShowPassword": "Show password",
+  "passwordSubtitle": "Choose a new password",
+  "passwordUpdateBtn": "Update password",
+  "passwordUpdated": "Password updated",
+  "passwordUpdatedNote": "You're all set — loading your dashboard…",
+  "passwordUpdating": "Updating…",
+  "photoAiEstimate": "AI Estimate",
+  "photoAnalyzing": "Analyzing your meal…",
+  "photoCalories": "Calories",
+  "photoCapture": "Capture",
+  "photoCarbsG": "Carbs g",
+  "photoCloseCamera": "Close camera",
+  "photoDesc": "Take or upload a food photo — AI estimates the calories and macros, then you review and log it.",
+  "photoErrAnalysisDefault": "Analysis failed. Please try again.",
+  "photoErrAnalyze": "Couldn't analyze that photo. Please try again.",
+  "photoErrCamera": "Camera permission was denied or is unavailable. Use Upload instead.",
+  "photoErrCapture": "Couldn't capture the photo. Try again.",
+  "photoErrRead": "Couldn't read that image. Please try another.",
+  "photoFatG": "Fat g",
+  "photoIdleDesc": "Use your camera to photograph your plate, or pick an existing photo from your gallery.",
+  "photoIdleTitle": "Snap or upload a meal",
+  "photoLoggedDiary": "Logged to your diary!",
+  "photoLogMeal": "Log meal",
+  "photoMealNamePlaceholder": "Meal name",
+  "photoNoFood": "No food detected. Try a clearer, closer shot of your plate.",
+  "photoPreviewAlt": "Meal preview",
+  "photoProteinG": "Protein g",
+  "photoRemovePhoto": "Remove photo",
+  "photoRetry": "Retry",
+  "photoReviewAdjust": "Review & adjust before logging",
+  "photoTakePhoto": "Take Photo",
+  "photoTitle": "Snap a Meal",
+  "photoTryAnother": "Try another",
+  "photoUpload": "Upload",
+  "scannerCarbs": "Carbohydrates",
+  "scannerClear": "Clear",
+  "scannerDescManual": "Enter a product's UPC/EAN barcode to look it up in Open Food Facts. Unknown codes fall back to an AI estimate.",
+  "scannerDescSupported": "Scan a product barcode with your camera, or enter it manually. Looked up in Open Food Facts — unknown codes fall back to an AI estimate.",
+  "scannerErrCamera": "Camera permission was denied or is unavailable. You can still enter the barcode number manually below.",
+  "scannerErrLookup": "Barcode analysis failed. Try a pre-registered code or check environment.",
+  "scannerFats": "Fats",
+  "scannerLiveViewport": "Live Viewport",
+  "scannerLogToLog": "Log to Meal Log",
+  "scannerLookup": "Look up",
+  "scannerManualDesc": "Live scanning isn't available on this browser. You can still type the barcode number below.",
+  "scannerManualLabel": "Or enter the barcode manually",
+  "scannerManualTitle": "Manual Entry Recommended",
+  "scannerMatchScanned": "Match Scanned!",
+  "scannerPlaceholder": "Enter numeric UPC/EAN code...",
+  "scannerProtein": "Protein",
+  "scannerReadyDesc": "Point your camera at a product barcode — it scans and looks it up automatically.",
+  "scannerReadyTitle": "Camera Scanner Ready",
+  "scannerServingQty": "Serving Quantity: {size} {unit}",
+  "@scannerServingQty": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "scannerStatusPoint": "Point the camera at a barcode — it scans automatically.",
+  "scannerStatusStarting": "Starting camera view...",
+  "scannerStatusUnsupported": "Live scanning isn't supported on this browser — enter the code manually below.",
+  "scannerStopCamera": "Stop Camera Feed",
+  "scannerTitle": "Barcode Scanner",
+  "scannerUseCamera": "Use Device Camera",
+  "waterCup": "Cup",
+  "waterGlass": "Glass",
+  "waterHydrated": "Hydrated",
+  "waterPerfect": "Perfect hydration! Goal exceeded today.",
+  "waterReduce": "Reduce",
+  "waterReduceTitle": "Reduce water log",
+  "waterRemaining": "{ml} ml remaining to meet daily baseline.",
+  "@waterRemaining": {
+    "placeholders": {
+      "ml": {
+        "type": "String"
+      }
+    }
+  },
+  "waterTarget": "Target: 2.5L",
+  "waterTitle": "Hydration Tracker"
+}

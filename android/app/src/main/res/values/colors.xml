@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App background (dark theme) — shown behind Flutter before the first frame
+         and behind transparent system bars. -->
+    <color name="nf_bg">#0B0E14</color>
+</resources>

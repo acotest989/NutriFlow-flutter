@@ -1,0 +1,6 @@
+# Copy to key.properties (gitignored) and fill in the passwords.
+# Same upload keystore as the old TWA build — required to update the Play listing.
+storeFile=../../NutriFlow/play-package/signing.keystore
+storePassword=
+keyAlias=my-key-alias
+keyPassword=
