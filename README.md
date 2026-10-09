@@ -1,9 +1,19 @@
 # NutriFlow (Flutter / Android)
 
-Native Android rewrite of [NutriFlow](../NutriFlow) — diet, hydration and exercise tracker. It replaces the
-Trusted Web Activity on Google Play (same package `app.nutriflow.twa`, same upload key), so existing installs
-update in place. No WebView and no own backend: the app talks directly to Supabase, Firebase AI Logic,
-Open Food Facts, USDA FoodData Central and wger.
+Native Android rewrite of [NutriFlow](https://github.com/acotest989/NutriFlow) — diet, hydration and exercise
+tracker with an AI coach and meal-photo analysis. It replaces the Trusted Web Activity on Google Play (same package
+`app.nutriflow.twa`, same upload key), so existing installs update in place. No WebView and no own backend: the app
+talks directly to Supabase, Firebase AI Logic, Open Food Facts, USDA FoodData Central and wger.
+
+**Status:** Google Play internal testing · Live web version: https://nutriflow-623241712044.europe-west1.run.app
+
+<p>
+  <img src="docs/screenshots/dashboard.png" width="19%" alt="Dashboard" />
+  <img src="docs/screenshots/meals.png" width="19%" alt="Meals" />
+  <img src="docs/screenshots/trends.png" width="19%" alt="7-day trend" />
+  <img src="docs/screenshots/scan.png" width="19%" alt="Snap a Meal and barcode scanner" />
+  <img src="docs/screenshots/dashboard_light_bs.png" width="19%" alt="High-contrast light theme, Bosnian" />
+</p>
 
 | Concern | Web app (TWA) | Flutter app |
 |---|---|---|
@@ -52,7 +62,7 @@ flutter analyze
 - `FDC_API_KEY` — USDA key (same as Cloud Run's). Without it food search uses the in-app catalog only.
 
 Screens with demo data (no login needed): `flutter test --tags screenshots --run-skipped --update-goldens` →
-`test/screenshots/goldens/*.png`.
+`test/screenshots/goldens/*.png` (full-page review, gitignored) and `docs/screenshots/*.png` (phone size, used above).
 
 ## One-time setup
 

@@ -4,6 +4,7 @@
 @Tags(['screenshots'])
 library;
 
+import 'package:flutter/material.dart' show SingleChildScrollView;
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -130,6 +131,20 @@ Future<void> _shot(WidgetTester tester, String name) async {
   await expectLater(find.byType(NutriFlowApp), matchesGoldenFile('goldens/$name.png'));
 }
 
+/// Phone-sized capture for the README (docs/screenshots/, committed).
+Future<void> _readme(WidgetTester tester, String name) async {
+  await tester.pump(const Duration(seconds: 2));
+  await expectLater(find.byType(NutriFlowApp), matchesGoldenFile('../../docs/screenshots/$name.png'));
+}
+
+/// A real phone viewport (412 × 915 dp) instead of the tall review canvas.
+void _phoneView() {
+  final view = TestWidgetsFlutterBinding.instance.platformDispatcher.views.first;
+  view.physicalSize = const Size(412 * 2.5, 915 * 2.5);
+  view.devicePixelRatio = 2.5;
+  view.padding = const FakeViewPadding(top: 60, bottom: 40);
+}
+
 Future<void> _tab(WidgetTester tester, String label) async {
   await tester.tap(find.text(label).last);
   await tester.pump(const Duration(milliseconds: 600));
@@ -171,5 +186,25 @@ void main() {
   testWidgets('first-run onboarding', (tester) async {
     await _pumpApp(tester, state: _fixture().copyWith(hasOnboarded: false, profile: null));
     await _shot(tester, 'onboarding');
+  });
+
+  testWidgets('README screenshots (phone size)', (tester) async {
+    _phoneView();
+    await _pumpApp(tester);
+    await _readme(tester, 'dashboard');
+    await _tab(tester, 'Meals');
+    await _readme(tester, 'meals');
+    await _tab(tester, 'Trends');
+    // Scroll past the streak + badges to the 7-day chart.
+    await tester.drag(find.byType(SingleChildScrollView).first, const Offset(0, -760));
+    await _readme(tester, 'trends');
+    await _tab(tester, 'UPC Scan');
+    await _readme(tester, 'scan');
+  });
+
+  testWidgets('README screenshot (light, Bosnian)', (tester) async {
+    _phoneView();
+    await _pumpApp(tester, prefs: {'nutriflow-theme': 'light', 'nutriflow-lang': 'bs'});
+    await _readme(tester, 'dashboard_light_bs');
   });
 }
