@@ -50,3 +50,4 @@ app.*.map.json
 # Generated review screenshots (flutter test --tags screenshots ...)
 /test/screenshots/goldens/
 /test/screenshots/failures/
+NutriFlow.code-workspace
